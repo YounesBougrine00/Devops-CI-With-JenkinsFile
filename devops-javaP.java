@@ -37,6 +37,9 @@ import java.util.Scanner;
 				b=r;
 				r=a%b;
 			System.out.print("la valeur du pgcd est :"+r);
+
+			//Collaborator's changes :
+		System.out.print("I am abdelhaq AJNAKI");
 			
 			
 			
