@@ -1,4 +1,4 @@
-package tp2;
+
 
 class HelloWorld {
     public static void main(String[] args) {
