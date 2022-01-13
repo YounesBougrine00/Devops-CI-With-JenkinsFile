@@ -1,4 +1,4 @@
 From openjdk:11 
 EXPOSE 8080 
-ADD target/my-app-1.0-SNAPSHOT.war my-app-1.0-SNAPSHOT.war 
+ADD /target/my-app-1.0-SNAPSHOT.war my-app-1.0-SNAPSHOT.war 
 ENTRYPOINT ["java","-war","/my-app-1.0-SNAPSHOT.war"]
