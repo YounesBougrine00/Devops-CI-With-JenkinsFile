@@ -8,7 +8,7 @@ pipeline {
   stages { 
     stage('Build') { 
       steps { 
-        sh 'sudo -s mvn package'
+        sh 'sudo -S mvn package'
       } 
     } 
     stage('Building image') { 
